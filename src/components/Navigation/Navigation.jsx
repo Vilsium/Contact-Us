@@ -1,10 +1,11 @@
 import style from './Navigation.module.css'
+import frame from '/images/Frame 2 1.png'
 
 const Navigation = () => {
     return (
         <nav className={`${style.navigation} container`}>
             <div className="logo">
-                <img src="/images/Frame 2 1.png" alt="logo" />
+                <img src={frame} alt="logo" />
             </div>
             <ul>
                 <li>Home</li>

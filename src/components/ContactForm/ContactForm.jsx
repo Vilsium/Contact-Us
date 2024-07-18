@@ -4,6 +4,7 @@ import { MdMessage } from 'react-icons/md'
 import { FaPhoneAlt } from 'react-icons/fa'
 import { HiMail } from 'react-icons/hi'
 import { useState } from 'react'
+import image from '/images/Service 24_7-pana 1.svg'
 
 const ContactForm = () => {
     const [name, setName] = useState(" ");
@@ -51,7 +52,7 @@ const ContactForm = () => {
             </form>
         </div>
         <div className={style.contactImg}>
-            <img src="/images/Service 24_7-pana 1.svg" alt="contact image" />
+            <img src={image} alt="contact image" />
         </div>
         </section>
     )
